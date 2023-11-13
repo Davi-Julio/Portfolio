@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:ital,wght@0,400;0,700;1,300&family=Roboto+Condensed:ital@1&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
 
-HTML,body{
+HTML,
+body {
     max-height: 100%;
 }
 
-.header{
+.header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,32 +21,32 @@ HTML,body{
     background-color: #fff;
     width: 100%;
     position: fixed;
-    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
 }
 
-.titulo-header h1{
+.titulo-header h1 {
     font-size: 25px;
     font-weight: 800;
     text-transform: uppercase;
 }
 
-.nav ul{
+.nav ul {
     display: flex;
     align-items: center;
     margin: 10px 10px;
 }
 
-.navStyle{
+.navStyle {
     transition: 5s;
     margin: 0px 50px;
 }
 
-.nav ul li{
+.nav ul li {
     list-style-type: none;
     margin: 0px 15px;
 }
 
-.nav ul li a{
+.nav ul li a {
     color: #000;
     text-decoration: none;
     font-weight: 800;
@@ -53,13 +54,13 @@ HTML,body{
     border-bottom: 1px solid black;
 }
 
-.nav ul li a:hover{
+.nav ul li a:hover {
     color: #7700ff;
     transition: .5s;
     border-bottom: none;
 }
 
-.apresentação{
+.apresentação {
     background-color: #f9f9f9;
     display: flex;
     flex-direction: row;
@@ -68,13 +69,13 @@ HTML,body{
     padding: 10% 0;
 }
 
-.conteudo-apresentação > p {
+.conteudo-apresentação>p {
     font-size: 24px;
     border-left: 1px solid black;
     padding: 0px 10px;
 }
 
-.fullstack{
+.fullstack {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -108,36 +109,36 @@ HTML,body{
     -webkit-text-fill-color: transparent;
 }
 
-.sobremin{
+.sobremin {
     max-width: 550px;
 }
 
-.sobremin p{
+.sobremin p {
     color: #383838;
     font-weight: 600;
 }
 
-.img-section img{
+.img-section img {
     width: 35vw;
     border-radius: 20px;
     box-shadow: 5px 5px 10px black;
 }
 
-.sobre-min{
+.sobre-min {
     background-color: #fff;
     padding: 2% 2%;
 }
 
-.titulo-skills{
+.titulo-skills {
     margin: 0px 150px;
 }
 
-.titulo-skills p{
+.titulo-skills p {
     font-size: 17px;
     font-weight: 800;
 }
 
-.skills{
+.skills {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -145,12 +146,12 @@ HTML,body{
 }
 
 
-.skills img{
+.skills img {
     width: 4vw;
     margin: 0px 20px;
 }
 
-.container-sobre-min{
+.container-sobre-min {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -158,47 +159,47 @@ HTML,body{
     padding: 6% 2%;
 }
 
-.img-sobre-min img{
+.img-sobre-min img {
     width: 40vw;
     border-radius: 20px;
 }
 
-.box-sobre-min p:nth-child(1){
+.box-sobre-min p:nth-child(1) {
     color: #7700ff;
     font-weight: 800;
     text-transform: uppercase;
 }
 
-.box-sobre-min h2{
+.box-sobre-min h2 {
     font-weight: 800;
 }
 
-.box-sobre-min p:nth-child(3){
+.box-sobre-min p:nth-child(3) {
     letter-spacing: 2px;
     font-weight: 500;
 }
 
-.box-sobre-min{
+.box-sobre-min {
     max-width: 550px;
 }
 
-.projetos{
+.projetos {
     background-color: #f9f9f9;
     padding: 3% 3%;
 }
 
-.titulo-projeto p{
+.titulo-projeto p {
     color: #7700ff;
     font-weight: 800;
     text-transform: uppercase;
 }
 
-.titulo-projeto h2{
+.titulo-projeto h2 {
     font-size: 35px;
     font-weight: 800;
 }
 
-.container-projetos{
+.container-projetos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -206,8 +207,8 @@ HTML,body{
     margin: 80px 0px;
 }
 
-.projeto1{
-    display:flex;
+.projeto1 {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -218,8 +219,9 @@ HTML,body{
     max-width: 1050px;
 }
 
-.img-projeto1{
-    width: 95vw; height: 50vh;
+.img-projeto1 {
+    width: 95vw;
+    height: 50vh;
     background-image: url(/Imgs_Icons/2moviessite.lovestoblog.com.png);
     background-size: cover;
     background-position: 50% 0%;
@@ -229,28 +231,28 @@ HTML,body{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.img-projeto1:hover{
+.img-projeto1:hover {
     background-position: 100% 100%;
 }
 
-.conteudo-projeto1{
+.conteudo-projeto1 {
     margin: 0px 50px;
-    text-align: center; 
+    text-align: center;
     max-width: 300px;
 }
 
-.conteudo-projeto1 h3{
+.conteudo-projeto1 h3 {
     font-weight: 800;
 }
 
-.conteudo-projeto1 p{
+.conteudo-projeto1 p {
     font-size: 18px;
     color: #999;
 }
 
 
-.projeto2{
-    display:flex;
+.projeto2 {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -262,8 +264,9 @@ HTML,body{
     margin: 50px 0px;
 }
 
-.img-projeto2{
-    width: 95vw; height: 60vh;
+.img-projeto2 {
+    width: 95vw;
+    height: 60vh;
     background-image: url(/Imgs_Icons/SiteEcommerce.png);
     background-size: cover;
     background-position: 50% 0%;
@@ -274,27 +277,27 @@ HTML,body{
 }
 
 
-.img-projeto2:hover{
+.img-projeto2:hover {
     background-position: 100% 100%;
 }
 
-.conteudo-projeto2{
+.conteudo-projeto2 {
     margin: 0px 50px;
-    text-align: center; 
+    text-align: center;
     max-width: 300px;
 }
 
-.conteudo-projeto2 h3{
+.conteudo-projeto2 h3 {
     font-weight: 800;
 }
 
-.conteudo-projeto2 p{
+.conteudo-projeto2 p {
     font-size: 18px;
     color: #999;
 }
 
-.projeto3{
-    display:flex;
+.projeto3 {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -306,8 +309,9 @@ HTML,body{
     margin: 0px 0px;
 }
 
-.img-projeto3{
-    width: 95vw; height: 55vh;
+.img-projeto3 {
+    width: 95vw;
+    height: 55vh;
     background-image: url(/Imgs_Icons/sistemaAgenda.png);
     background-size: cover;
     background-position: 50% 0%;
@@ -317,39 +321,39 @@ HTML,body{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.img-projeto3:hover{
-   transform: translateY(-10%);
+.img-projeto3:hover {
+    transform: translateY(-10%);
 }
 
-.conteudo-projeto3{
+.conteudo-projeto3 {
     margin: 0px 50px;
-    text-align: center; 
+    text-align: center;
     max-width: 300px;
 }
 
-.conteudo-projeto3 h3{
+.conteudo-projeto3 h3 {
     font-weight: 800;
 }
 
-.conteudo-projeto3 p{
+.conteudo-projeto3 p {
     font-size: 18px;
     color: #999;
 }
 
 
-.icons img{
+.icons img {
     width: 3vw;
     margin: 0px 10px;
 }
 
-.icons{
+.icons {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.links{
+.links {
     margin: 15px 0px;
     display: flex;
     flex-direction: row;
@@ -357,12 +361,12 @@ HTML,body{
     justify-content: center;
 }
 
-.links a{
+.links a {
     margin: 0px 10px;
     text-decoration: none;
 }
 
-.links a:nth-child(1){
+.links a:nth-child(1) {
     font-weight: 800;
     color: #7700ff;
     border: 1px solid #7700ff;
@@ -370,7 +374,7 @@ HTML,body{
     border-radius: 5px;
 }
 
-.links a:nth-child(2){
+.links a:nth-child(2) {
     font-weight: 800;
     color: #000;
     border: 1px solid black;
@@ -378,22 +382,22 @@ HTML,body{
     border-radius: 5px;
 }
 
-.contato{
+.contato {
     background-color: #fff;
     padding: 5% 3%;
 }
 
-.titulo-contato h2{
+.titulo-contato h2 {
     font-weight: 800;
 }
 
-.titulo-contato > p{
+.titulo-contato>p {
     color: #7700ff;
     font-weight: 800;
     text-transform: uppercase;
 }
 
-.container-contato{
+.container-contato {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -402,35 +406,36 @@ HTML,body{
     text-align: center;
 }
 
-.email p:nth-child(2){
+.email p:nth-child(2) {
     font-weight: 800;
 }
 
-.location p:nth-child(2){
+.location p:nth-child(2) {
     font-weight: 800;
 }
 
-.whatsapp p:nth-child(2){
+.whatsapp p:nth-child(2) {
     font-weight: 800;
 }
 
-.linkedin p{
+.linkedin p {
     font-weight: 800;
 }
-.linkedin a{
+
+.linkedin a {
     color: #7700ff;
     font-weight: 500;
     text-decoration: none;
     transition: 5s;
 }
 
-.footer{
+.footer {
     background-color: #2d2e32;
     color: #fff;
     text-align: center;
 }
 
-.footer p{
+.footer p {
     padding: 40px 0px;
-    font-weight:800;
+    font-weight: 800;
 }
