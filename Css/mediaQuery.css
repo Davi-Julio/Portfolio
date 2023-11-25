@@ -140,7 +140,7 @@
     }
 
     .box-sobre-min {
-        max-width: 300px;
+        max-width: 350px;
     }
 
     .box-sobre-min p:nth-child(1) {
@@ -174,7 +174,6 @@
     .img-projeto1 {
         width: 80vw;
         height: 35vh;
-        transition: 0s;
     }
 
     .conteudo-projeto1 {
@@ -200,7 +199,6 @@
     .img-projeto2 {
         width: 80vw;
         height: 35vh;
-        transition: 0s;
     }
 
     .conteudo-projeto2 {
@@ -226,7 +224,6 @@
     .img-projeto3 {
         width: 80vw;
         height: 35vh;
-        transition: 0s;
     }
 
     .conteudo-projeto3 {
@@ -692,12 +689,12 @@
 
     .box-sobre-min p:nth-child(3) {
         letter-spacing: 1px;
-        font-size: 10px;
+        font-size: 9px;
         text-align: center;
     }
 
     .box-sobre-min {
-        max-width: 350px;
+        max-width: 250px;
     }
 
     .projetos {
