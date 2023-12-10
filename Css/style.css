@@ -84,6 +84,7 @@ body {
 .fullstack h1 {
     font-size: 4rem;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .fullstack a {
@@ -107,6 +108,7 @@ body {
     text-transform: uppercase;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 800;
 }
 
 .sobremin {
@@ -222,7 +224,7 @@ body {
 .img-projeto1 {
     width: 95vw;
     height: 50vh;
-    background-image: url(/Imgs_Icons/2moviessite.lovestoblog.com.png);
+    background-image: url(/Imgs_Icons/Registration&Authentication.png);
     background-size: cover;
     background-position: 50% 0%;
     cursor: pointer;
@@ -267,7 +269,7 @@ body {
 .img-projeto2 {
     width: 95vw;
     height: 60vh;
-    background-image: url(/Imgs_Icons/SiteEcommerce.png);
+    background-image: url(/Imgs_Icons/sistemaAgenda.png);
     background-size: cover;
     background-position: 50% 0%;
     cursor: pointer;
@@ -312,7 +314,7 @@ body {
 .img-projeto3 {
     width: 95vw;
     height: 55vh;
-    background-image: url(/Imgs_Icons/sistemaAgenda.png);
+    background-image: url(/Imgs_Icons/SiteEcommerce.png);
     background-size: cover;
     background-position: 50% 0%;
     cursor: pointer;
