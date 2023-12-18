@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:ital,wght@0,400;0,700;1,300&family=Roboto+Condensed:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:ital,wght@0,400;0,700;1,300&family=Roboto+Condensed:ital@1&display=swap");
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 HTML,
@@ -21,13 +21,12 @@ body {
     background-color: #fff;
     width: 100%;
     position: fixed;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
 }
 
 .titulo-header h1 {
     font-size: 25px;
     font-weight: 800;
-    text-transform: uppercase;
 }
 
 .nav ul {
@@ -56,7 +55,7 @@ body {
 
 .nav ul li a:hover {
     color: #7700ff;
-    transition: .5s;
+    transition: 0.5s;
     border-bottom: none;
 }
 
@@ -66,13 +65,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 10% 0;
-}
-
-.conteudo-apresentação>p {
-    font-size: 24px;
-    border-left: 1px solid black;
-    padding: 0px 10px;
+    padding: 10% 0%;
 }
 
 .fullstack {
@@ -84,7 +77,6 @@ body {
 .fullstack h1 {
     font-size: 4rem;
     font-weight: 600;
-    text-transform: uppercase;
 }
 
 .fullstack a {
@@ -101,11 +93,9 @@ body {
     transform: translateY(-30%);
 }
 
-
 .developer h1 {
     background: repeating-linear-gradient(270deg, #00dbff, #001cff, #7700ff, #a300ff, #ff00f5);
     font-size: 4rem;
-    text-transform: uppercase;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
@@ -121,9 +111,9 @@ body {
 }
 
 .img-section img {
-    width: 35vw;
+    width: 40vw;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .sobre-min {
@@ -147,9 +137,8 @@ body {
     justify-content: center;
 }
 
-
 .skills img {
-    width: 4vw;
+    width: 5vw;
     margin: 0px 20px;
 }
 
@@ -229,12 +218,12 @@ body {
     background-position: 50% 0%;
     cursor: pointer;
     border-radius: 10px;
-    transition: 18s;
+    transition: 5s;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .img-projeto1:hover {
-    background-position: 100% 100%;
+    box-shadow: 10px 10px 20px black;
 }
 
 .conteudo-projeto1 {
@@ -252,7 +241,6 @@ body {
     color: #999;
 }
 
-
 .projeto2 {
     display: flex;
     flex-direction: row;
@@ -269,18 +257,17 @@ body {
 .img-projeto2 {
     width: 95vw;
     height: 60vh;
-    background-image: url(/Imgs_Icons/sistemaAgenda.png);
+    background-image: url(/Imgs_Icons/Contact\ List.png);
     background-size: cover;
-    background-position: 50% 0%;
+    background-position: 30% 0%;
     cursor: pointer;
     border-radius: 10px;
-    transition: 18s;
+    transition: 5s;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-
 .img-projeto2:hover {
-    background-position: 100% 100%;
+    box-shadow: 10px 10px 20px black;
 }
 
 .conteudo-projeto2 {
@@ -319,7 +306,7 @@ body {
     background-position: 50% 0%;
     cursor: pointer;
     border-radius: 10px;
-    transition: 18s;
+    transition: 20s;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
@@ -341,7 +328,6 @@ body {
     font-size: 18px;
     color: #999;
 }
-
 
 .icons img {
     width: 3vw;
@@ -393,7 +379,7 @@ body {
     font-weight: 800;
 }
 
-.titulo-contato>p {
+.titulo-contato > p {
     color: #7700ff;
     font-weight: 800;
     text-transform: uppercase;

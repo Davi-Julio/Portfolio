@@ -1,7 +1,6 @@
 /* large tables/laptops */
 
-@media (min-width:992px) and (max-width:1116px) {
-
+@media (min-width: 992px) and (max-width: 1116px) {
     .apresentação {
         padding: 10% 0;
     }
@@ -9,7 +8,6 @@
     .container-sobre-min {
         padding: 5% 2%;
     }
-
 
     .box-sobre-min {
         max-width: 450px;
@@ -39,7 +37,6 @@
         color: #999;
     }
 
-
     .projeto2 {
         max-width: 900px;
     }
@@ -64,7 +61,6 @@
         color: #999;
     }
 
-
     .projeto3 {
         max-width: 900px;
     }
@@ -88,21 +84,13 @@
         font-size: 18px;
         color: #999;
     }
-
 }
 
 /* small tablets */
 
-@media (min-width:768px) and (max-width:991px) {
-
+@media (min-width: 768px) and (max-width: 991px) {
     .apresentação {
         padding: 12% 2%;
-    }
-
-    .conteudo-apresentação>p {
-        font-size: 15px;
-        border-left: 1px solid black;
-        padding: 0px 5px;
     }
 
     .fullstack h1 {
@@ -117,7 +105,6 @@
         width: 3vw;
         margin: 0px 10px;
     }
-
 
     .developer h1 {
         font-size: 3rem;
@@ -259,7 +246,7 @@
         font-size: 25px;
     }
 
-    .titulo-contato>p {
+    .titulo-contato > p {
         font-size: 15px;
     }
 
@@ -267,13 +254,10 @@
         text-align: center;
         margin: 30px 0px;
     }
-
 }
 
-
 /* Estra Small Devices*/
-@media (min-width:481px) and (max-width:768px) {
-
+@media (min-width: 481px) and (max-width: 768px) {
     .header {
         display: flex;
         flex-direction: column;
@@ -307,12 +291,6 @@
         padding: 10% 0;
     }
 
-    .conteudo-apresentação>p {
-        font-size: 16px;
-        border-left: 0px solid black;
-        padding: 0px 5px;
-    }
-
     .conteudo-apresentação {
         margin: 100px 150px;
     }
@@ -343,14 +321,12 @@
     }
 
     .img-section img {
-        width: 30vw;
+        width: 50vw;
     }
 
     .skills {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        display: inline-block;
+        text-align: center;
     }
 
     .titulo-skills {
@@ -362,10 +338,9 @@
     }
 
     .skills img {
-        width: 5vw;
-        margin: 0px 10px;
+        width: 8vw;
+        margin: 0px 5px;
     }
-
 
     .container-sobre-min {
         display: flex;
@@ -536,7 +511,7 @@
         font-size: 22px;
     }
 
-    .titulo-contato>p {
+    .titulo-contato > p {
         font-size: 13px;
         text-align: center;
     }
@@ -570,7 +545,7 @@
 
 /*MOBILE*/
 
-@media(max-width:480px) {
+@media (max-width: 480px) {
     .header {
         display: flex;
         flex-direction: column;
@@ -605,10 +580,6 @@
         padding: 0% 0;
     }
 
-    .conteudo-apresentação>p {
-        font-size: 13px;
-    }
-
     .conteudo-apresentação {
         margin: 100px 150px;
     }
@@ -640,20 +611,17 @@
     }
 
     .img-section img {
-        width: 0vw;
+        width: 70vw;
     }
 
     .skills {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        display: inline-block;
         text-align: center;
-        justify-content: center;
-        margin: 0px 70px;
     }
 
     .skills img {
-        width: 6vw;
-        margin: 5px 10px;
+        width: 10vw;
+        margin: 5px 3px;
     }
 
     .titulo-skills {
@@ -854,7 +822,7 @@
         font-size: 14px;
     }
 
-    .titulo-contato>p {
+    .titulo-contato > p {
         font-size: 12px;
         text-align: center;
     }
@@ -887,5 +855,4 @@
         font-weight: 800;
         font-size: 10px;
     }
-
 }
