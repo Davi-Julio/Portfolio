@@ -2,257 +2,515 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfólio Davi Júlio</title>
-  <link rel="short icon" href="/Imgs_Icons/laptop.jpg" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./Css/style.css" />
-  <link rel="stylesheet" href="./Css/mediaQuery.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Davi Júlio Portfólio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="short icon" href="images/Log-D.jpg">
 </head>
 
 <body>
-  <header class="header">
-    <div class="titulo-header">
-      <h1>Davi.dev</h1>
+  <header>
+    <div id="sound">
+      <audio id="myAudio">
+        <source src="/Music (Extended Version).mp4" />
+      </audio>
+      <i class="fab fa-soundcloud sound-cloud"></i>
+      <span>Sound</span>
+      <div class="on-off">
+        <span id="off">OFF</span>
+        <span id="on">On</span>
+      </div>
     </div>
-    <!--titulo-header-->
-    <nav id="top" class="nav">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#sobremin">Sobre Mim</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-    <!--nav-->
+    <div class="btns-container">
+      <i class="fas fa-bars bars"></i>
+      <i class="fas fa-times times"></i>
+    </div>
   </header>
-  <!--header-->
 
-  <section id="home" class="apresentação">
-    <div class="conteudo-apresentação">
-      <div class="fullstack">
-        <h1>FullStack</h1>
-        <a target="_blank" href="https://github.com/Davi-Julio"><img src="./Imgs_Icons/github.png" alt="" /></a>
-        <a target="_blank" href="https://www.linkedin.com/in/davi-j%C3%BAlio-801801240/"><img
-            src="./Imgs_Icons/linkedin.png" alt="" /></a>
-        <a target="_blank" href="/Imgs_Icons/Currículo_Davi-Júlio.pdf"><img src="./Imgs_Icons/curriculo.png"
-            alt="" /></a>
+  <!-- sidebar -->
+  <aside class="aside">
+    <div class="aside-wrapper">
+      <div class="logo-section">
+        <a class="logo" rel="home" href="#">
+          <img src="images/Log-D.jpg" alt="logo" />
+        </a>
+        <span>FullStack Developer</span>
       </div>
-      <!--fullstack-->
-      <div class="developer">
-        <h1>Developer</h1>
-      </div>
-      <!--developer-->
-      <div class="sobremin">
+
+      <nav class="nav-links">
+        <a href="#section-home">About</a>
+        <a href="#section-work">Work</a>
+        <a href="#section-about">My Skills</a>
+        <a href="#section-blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <!-- social icons -->
+      <ul class="social-icons">
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/davijulio/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/Davi-Julio">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="images/Currículo_Davi-Júlio_.pdf">
+            <i class="fas fa-rss"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- text zone  section one-->
+  <section id="section-home" class="section-home">
+    <div class="text-zone">
+      <h1>
+        Hi,
+        <br />
+        I'm
+        Davi,
+        <br />
+        <span class="fullstack">FullStack</span> Developer
+      </h1>
+      <p class="gray-text">PHP / Laravel / VueJS / MySQL / Docker / JavaScript / JQuery / Bootstrap</p>
+      <br />
+
+      <!-- contact button -->
+      <a target="_blank" href="https://wa.link/q0424g" class="contact-button">
+        <div>
+          <span class="bg"></span>
+          <span class="base"></span>
+          <span class="text">
+            Contact me!
+          </span>
+        </div>
+      </a>
+    </div>
+
+    <!--  -->
+    <div class="scroll-down">
+      <span>scroll down</span>
+      <i class="fas fa-arrow-down"></i>
+    </div>
+
+    <div class="scroll-down scroll-down--left">
+      <span>scroll down</span>
+      <i class="fas fa-arrow-down"></i>
+    </div>
+  </section>
+
+  <!-- part 2 starts here  -->
+  <!-- part 2 starts here  -->
+  <!-- part 2 starts here  -->
+  <section id="section-work">
+    <div id="header">
+      <h2>My Portfólio</h2>
+    </div>
+    <div class="text-zone-2">
+      <div>
         <p>
-          Olá, eu sou Davi Júlio Tenho 20 anos, sou desenvolvedor FullStack
-          com um ano de experiência, fazendo projetos pessoais e freelancers.📌
+          A brief gallery of recent projects selected by me,in which I played a crucial role in creating the user interfaces in the Front-End, as well as being responsible for developing algorithms and manipulating the MySQL relational database in the Back-End.
         </p>
       </div>
-      <!--sobre Min-->
+      <!-- my portfolio button -->
+      <a target="_blank" href="https://wa.link/q0424g" class="contact-button">
+        <div>
+          <span class="bg"></span>
+          <span class="base"></span>
+          <span class="text">
+            Contact me!
+          </span>
+        </div>
+      </a>
     </div>
-    <!--conteudo-apresentação-->
-
-    <figure class="img-section">
-      <img src="Imgs_Icons/Img-apresentação.webp" alt="" />
-    </figure>
-    <!--img-section-->
+    <div class="fake-big fake-big-2">Work</div>
   </section>
-  <!--apresentação-->
 
-  <section id="sobremin" class="sobre-min">
-    <div class="titulo-skills">
-      <p>My Skills:</p>
+  <!-- magical wall section -->
+  <div id="home-magicwall" class="fake-magicwall">
+    <ul>
+      <li>
+        <div class="magic-wall_item lazyload" id="modal1">
+          <img src="images/Login.png" alt="image" />
+          <div class="hover-content"></div>
+          <a target="_blank" href="http://registrationauthenticationsystem.000.pe///" class="colorbox"></a>
+        </div>
+      </li>
+      <!-- magic wall 1 -->
+      <li>
+        <div class="magic-wall_item lazyload">
+          <img src="images/CRUD.webp" alt="image" />
+          <div class="hover-content"></div>
+          <a target="_blank" href="https://listecontact.000webhostapp.com//" class="colorbox"></a>
+        </div>
+      </li>
+      <!-- magic wall 3 -->
+      <li>
+        <div class="magic-wall_item lazyload">
+          <img src="images/SumProject.png" alt="image" />
+          <div class="hover-content"></div>
+          <a target="_blank" href="https://sumofdivisibles.netlify.app/" class="colorbox"></a>
+        </div>
+      </li>
+      <!-- magic wall 3 -->
+      <li>
+        <div class="magic-wall_item lazyload">
+          <img src="images/Loja-Virtual.png" alt="image" />
+          <div class="hover-content"></div>
+          <a target="_blank" href="https://storeblack.000webhostapp.com///" class="colorbox"></a>
+        </div>
+      </li>
+      <!-- magic wall 4 -->
+      <li>
+        <div class="magic-wall_item lazyload">
+          <img src="images/Apis.jpeg" alt="image" />
+          <div class="hover-content"></div>
+          <a target="_blank" href="https://github.com/Davi-Julio/Sistema_Login2.0-_API-REST" class="colorbox"></a>
+        </div>
+      </li>
+      <!-- magic wall 5 -->
+      <li>
+        <div class="magic-wall_item lazyload">
+          <img src="/images/laravel.png" alt="image" />
+          <div class="hover-content"></div>
+          <a target="_blank" href="https://github.com/Davi-Julio/Login_Laravel" class="colorbox"></a>
+        </div>
+      </li>
+      <!-- magic wall 6 -->
+      <li>
+        <div class="magic-wall_item lazyload">
+          <img src="images/HTML-Bootstrap-WordPress-and-PHP.jpg" alt="image" />
+          <div class="hover-content"></div>
+          <a target="_blank" href="https://github.com/Davi-Julio/Sistema_Agenda" class="colorbox"></a>
+        </div>
+      </li>
+      <!-- magic wall 7 -->
+      <li>
+        <div class="magic-wall_item lazyload">
+          <img src="images/unnamed.jpg" alt="image" />
+          <div class="hover-content"></div>
+          <a href="#" class="colorbox"></a>
+        </div>
+      </li>
+      <!-- magic wall 8 -->
+      <li>
+        <div class="magic-wall_item lazyload">
+          <img src="images/ttelo.png" alt="image" />
+          <div class="hover-content"></div>
+          <a href="#" class="colorbox"></a>
+        </div>
+      </li>
+      <!-- magic wall 9 -->
+      <li>
+        <div class="magic-wall_item lazyload">
+          <img src="images/london-block.jpg" alt="image" />
+          <div class="hover-content"></div>
+          <a href="#" class="colorbox"></a>
+        </div>
+      </li>
+      <!-- magic wall 10 -->
+    </ul>
+  </div>
+  <!-- this is the third part the about me section -->
+  <section id="section-about">
+    <div class="text-zone3">
+      <div id="header">
+        <h2>Me, Myself and I</h2>
+      </div>
+
+      <p>
+        I am a Full Stack Developer with a solid year of experience, excelling in personal projects, freelance work and
+        contributions to group projects. I am excited to continue my professional journey, seeking new opportunities to
+        get involved in challenging and collaborative projects. Throughout my career, I have acquired significant skills
+        in both Front-end and Back-end development.
+      </p>
+      <p>
+        My expertise spans diverse technologies, including PHP, Laravel, MySQL, VueJS, Docker, JavaScript, and JQuery. I
+        am constantly striving to improve and expand my web development knowledge by staying up to date with the latest
+        industry trends and practices. I am confident in my ability to face complex challenges and contribute to the
+        success of innovative projects.
+      </p>
     </div>
-    <!--titulo skills-->
-    <div class="skills">
-      <img src="./Imgs_Icons/php.svg" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" />
-      <img src="/Imgs_Icons/vue-js-.png" alt="">
-      <img src="/Imgs_Icons/mysqlwork.png" />
-      <img src="/Imgs_Icons/docker_logo.png" alt="">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-      <img src="/Imgs_Icons//git.png" alt="">
+
+    <div class="skills-charts">
+      <div id="myCanvasContainer">
+        <canvas width="500" height="500" id="myCanvas">
+          <ul id="tags">
+            <li><a href="#" target="_blank">PHP</a></li>
+            <li><a href="#" target="_blank">Laravel</a></li>
+            <li><a href="#" target="_blank">VueJS</a></li>
+            <li><a href="#" target="_blank">Docker</a></li>
+            <li><a href="#" target="_blank">REST</a></li>
+            <li><a href="#" target="_blank">REST APIs</a></li>
+            <li><a href="#" target="_blank">JSON</a></li>
+            <li><a href="#" target="_blank">MySQL</a></li>
+            <li><a href="#" target="_blank">JavaScript</a></li>
+            <li><a href="#" target="_blank">JQuery</a></li>
+            <li><a href="#" target="_blank">HTML</a></li>
+            <li><a href="#" target="_blank">CSS</a></li>
+            <li><a href="#" target="_blank">Bootstrap</a></li>
+            <li><a href="#" target="_blank">Git</a></li>
+            <li><a href="#" target="_blank">GitHub</a></li>
+            <li><a href="#" target="_blank">NGINX</a></li>
+            <li><a href="#" target="_blank">npm</a></li>
+          </ul>
+        </canvas>
+      </div>
     </div>
-    <!--skills-->
+  </section>
 
-    <div class="container-sobre-min">
-      <figure class="img-sobre-min">
-        <img src="/Imgs_Icons/Docker-laravel-PHP-MySQL.jpg" alt="" />
-      </figure>
-      <!--img-sobremin-->
+  <!-- the about section ends here -->
 
-      <div class="box-sobre-min">
-        <p>Sobre Mim</p>
-        <h2>Desenvolvedor FullStack 📌</h2>
+  <!-- blog section starts here -->
+  <!-- BLOG SECTION -->
+
+  <section data-load="blog" id="section-blog" class="section-full section-blog js-way">
+    <div class="fake-big fake-big-2">Blog</div>
+
+    <!-- blog articles wrapper -->
+    <div class="blog-articles">
+      <!-- Blog articles card 1-->
+      <article class="post-articles" style="border-top: 2px solid#81D8F7;">
+        <div class="post-content">
+          <time class="post-date" style="color: #81d8f7;">
+            PHP
+          </time>
+          <div class="blog-post-title">
+            <h5>
+              <a target="_blank" data-id="2354" href="https://www.php.net/">
+                PHP (Hypertext Preprocessor)
+              </a>
+            </h5>
+          </div>
+          <div class="blog-post-content">
+            A popular general-purpose scripting language that is especially suited to web development.
+          </div>
+        </div>
+      </article>
+
+      <!-- Blog articles card 2-->
+      <article class="post-articles" style="border-top: 2px solid #f50057;">
+        <div class="post-content">
+          <time class="post-date" style="color: #f50057;">
+            Laravel
+          </time>
+          <div class="blog-post-title">
+            <h5>
+              <a target="_blank" data-id="2182" href="https://laravel.com/">
+                The PHP Framework
+                for Web Artisans
+              </a>
+            </h5>
+          </div>
+          <div class="blog-post-content">
+            Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation —
+            freeing you to create without sweating the small things.
+          </div>
+        </div>
+      </article>
+
+      <!-- Blog articles card 3-->
+      <article class="post-articles" style="border-top: 2px solid #08fdd8;">
+        <div class="post-content">
+          <time class="post-date" style="color: #08fdd8;">VueJS</time>
+          <div class="blog-post-title">
+            <h5>
+              <a target="_blank" data-id="2113" href="https://vuejs.org/">
+                The Progressive
+                JavaScript Framework
+              </a>
+            </h5>
+          </div>
+          <div class="blog-post-content">
+            An approachable, performant and versatile framework for building web user interfaces.
+          </div>
+        </div>
+      </article>
+
+      <!-- Blog articles card 4-->
+      <article class="post-articles" style="border-top: 2px solid #81D8F7;">
+        <div class="post-content">
+          <time class="post-date" style="color: #81D8F7;">MySQL</time>
+          <div class="blog-post-title">
+            <h5>
+              <a target="_blank" data-id="2037" href="https://www.mysql.com/">
+                The world's most popular open source database
+              </a>
+            </h5>
+          </div>
+          <div class="blog-post-content">
+            MySQL HeatWave is a fully managed database service for transactions, real- time analytics across data...
+          </div>
+        </div>
+      </article>
+
+      <!-- Blog articles card 5-->
+      <article class="post-articles" style="border-top: 2px solid orange;">
+        <div class="post-content">
+          <time class="post-date" style="color: orange;">
+            JavaScript
+          </time>
+          <div class="blog-post-title">
+            <h5>
+              <a target="_blank" data-id="1900" href="https://www.w3schools.com/js/">
+              World's most popular programming language.
+              </a>
+            </h5>
+          </div>
+          <div class="blog-post-content">
+            JavaScript is the programming language of the Web.
+            JavaScript is easy to learn.
+          </div>
+        </div>
+      </article>
+
+      <!-- Blog articles card 6 -->
+      <article class="post-articles" style="border-top: 2px solid #81d8f7;">
+        <div class="post-content">
+          <time class="post-date" style="color: #81d8f7;">
+            JQuery
+          </time>
+          <div class="blog-post-title">
+            <h5>
+              <a target="_blank" data-id="2312" href="https://jquery.com/">
+                jQuery: The Write Less, Do More, JavaScript Library.
+              </a>
+            </h5>
+          </div>
+          <div class="blog-post-content">
+            jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation...
+          </div>
+        </div>
+      </article>
+
+      <!-- Blog articles card 7 -->
+      <article class="post-articles" style="border-top: 2px solid #0693e3;">
+        <div class="post-content">
+          <time class="post-date" style="color: #0693e3;">
+           Docker
+          </time>
+          <div class="blog-post-title">
+            <h5>
+              <a target="_blank" data-id="2019" href="https://www.docker.com/">
+                Make better, secure software from the start
+              </a>
+            </h5>
+          </div>
+          <div class="blog-post-content">
+            Docker provides a suite of development tools, services, trusted content, and automations, used individually or together, to accelerate the delivery of secure applications.
+          </div>
+        </div>
+      </article>
+
+      <!-- Blog articles card 8 -->
+      <article class="post-articles" style="border-top: 2px solid #6f42c1;">
+        <div class="post-content">
+          <time class="post-date" style="color: #6f42c1;">
+            Bootstrap
+          </time>
+          <div class="blog-post-title">
+            <h5>
+              <a target="_blank" data-id="2000" href="https://getbootstrap.com/">
+                Build fast, responsive sites with Bootstrap
+              </a>
+            </h5>
+          </div>
+          <div class="blog-post-content">
+            Powerful, extensible, and feature-packed frontend toolkit.
+          </div>
+        </div>
+      </article>
+
+      <!-- Blog articles card 9-->
+      <article class="post-articles" style="border-top: 2px solid orangered;">
+        <div class="post-content">
+          <time class="post-date" style="color: orangered;">
+           GIT
+          </time>
+          <div class="blog-post-title">
+            <h5>
+              <a target="_blank" data-id="2301" href="https://git-scm.com/">
+                --distributed-even-if-your-workflow-isnt
+              </a>
+            </h5>
+          </div>
+          <div class="blog-post-content">
+            Git is a free and open source distributed version control system designed to handle everything...
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact me section -->
+  <div id="contact" class="contact-section contact-wrapper">
+    <div class="fake-big">@</div>
+    <form class="contact-form">
+      <div class="contact-heading">
+        <div id="header">
+          <h2>Contact me</h2>
+        </div>
         <p>
-          Sou Desenvolvedor Full Stack com um
-          ano de experiência sólida em projetos pessoais, freelances e
-          contribuições para projetos em grupo. Estou entusiasmado em
-          continuar minha jornada profissional, procurando novas oportunidades
-          para me envolver em projetos desafiadores e colaborativos. Durante
-          minha trajetória, adquiri habilidades significativas tanto no
-          desenvolvimento Front-end quanto Back-end. Minha especialização
-          inclui tecnologias como PHP, Laravel, MySQl, VueJS e JavaScript. Estou
-          constantemente em busca de aprimorar e expandir meus conhecimentos
-          em desenvolvimento web, mantendo-me atualizado com as últimas
-          tendências e práticas da indústria.
+          I am seeking new work opportunities or freelance projects, especially those that stand out for their ambition or significant scale. If you have any other requests or questions, please feel free to get in touch using the form.
         </p>
       </div>
-      <!--box-sobre-min-->
-    </div>
-    <!--container-sobre-min-->
-  </section>
-  <!--sobre Min-->
 
-  <main id="projetos" class="projetos">
-    <div class="titulo-projeto">
-      <p>Portfólio</p>
-      <h2>Projetos 📌</h2>
-    </div>
-    <!--titulo-projeto-->
-
-    <div class="container-projetos">
-      <div class="projeto1">
-        <figure class="img-projeto1"></figure>
-        <!--Img Projeto 1-->
-        <div class="conteudo-projeto1">
-          <h3>Sistema de Autenticação e Cadastro</h3>
-          <p>
-            Este projeto visa possibilitar que os usuários autentiquem-se e cadastrem seus dados no site, com foco no
-            BackEnd e no banco de dados MySQL. No BackEnd, as funcionalidades são desenvolvidas com PHP puro. O MySQL
-            desempenha um papel crucial, oferecendo uma base sólida para armazenar e gerenciar as informações dos
-            usuários.
-          </p>
-          <div class="icons">
-            <img src="./Imgs_Icons/php.svg" alt="" />
-            <img src="/Imgs_Icons/mysqlwork.png" alt="" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
-          </div>
-          <!--icons-->
-          <div class="links">
-            <a target="_blank" href="https://github.com/Davi-Julio/Registration-Authentication">Git Hub</a>
-            <a target="_blank" href="http://registrationauthenticationsystem.000.pe///">Ver Projeto</a>
-          </div>
-          <!--links-->
+      <div class="form-input-wrapper">
+        <div class="form-input-group">
+          <input type="text" placeholder="Name" name="name" class="name" />
+          <span></span>
         </div>
-        <!--conteudo Projeto 1-->
-      </div>
-      <!--Projeto 1-->
-      <div class="projeto2">
-        <figure class="img-projeto2"></figure>
-        <!--Img Projeto 2-->
-        <div class="conteudo-projeto2">
-          <h3>
-            Lista de Contatos <br />
-            (CRUD)
-          </h3>
-          <p>
-            Sistema de Gerenciamento de Contatos: uma aplicação especializada em operações CRUD, oferecendo aos usuários
-            a capacidade de cadastrar, editar, visualizar e excluir seus contatos. Este projeto, focado no BackEnd, foi
-            implementado utilizando PHP puro e integra um banco de dados relacional MySQL para armazenamento e
-            administração eficientes dos dados.
-          </p>
-          <div class="icons">
-            <img src="./Imgs_Icons/php.svg" alt="" />
-            <img src="/Imgs_Icons/mysqlwork.png" alt="" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
-          </div>
-          <!--icons-->
-          <div class="links">
-            <a target="_blank" href="https://github.com/Davi-Julio/Contact-List">Git Hub</a>
-            <a target="_blank" href="https://listecontact.000webhostapp.com//">Ver Projeto</a>
-          </div>
-          <!--links-->
+        <div class="form-input-group">
+          <input type="email" name="email" placeholder="Email" class="email" />
+          <span></span>
         </div>
-        <!--conteudo Projeto 2-->
       </div>
-      <!--Projeto 2-->
-      <div class="projeto3">
-        <figure class="img-projeto3"></figure>
-        <!--Img Projeto 3-->
-        <div class="conteudo-projeto3">
-          <h3>
-            Loja Virtual
-          </h3>
-          <p>
-            Projeto de uma plataforma de comércio eletrônico completa, permitindo aos usuários explorar, selecionar e
-            adquirir produtos de forma intuitiva. O sistema deve oferecer funcionalidades como navegação categorizada,
-            carrinho de compras, sistema de pagamento seguro e gerenciamento eficiente de pedidos.
-          </p>
-          <div class="icons">
-            <img src="./Imgs_Icons/php.svg" />
-            <img src="/Imgs_Icons/mysqlwork.png" alt="" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-          </div>
-          <!--icons-->
-          <div class="links">
-            <a target="_blank" href="https://github.com/Davi-Julio/Loja_Virtual">Git Hub</a>
-            <a target="_blank" href="https://storeblack.000webhostapp.com///">Ver Projeto</a>
-          </div>
-          <!--links-->
+      <div class="form-input-group">
+        <input type="text" placeholder="Subject" class="subject" name="subject" />
+        <span></span>
+      </div>
+      <div class="form-input-group">
+        <textarea type="text" placeholder="Message" class="textarea" name="message"></textarea>
+        <span></span>
+      </div>
+      <div class="message"></div>
+      <button type="submit" class="contact-button submit-button">
+        <div>
+          <span class="bg"></span>
+          <span class="base"></span>
+          <span class="text">
+            <a target="_blank" class="btnMessenge" href="https://wa.link/q0424g">Send Message</a>
+          </span>
         </div>
-        <!--conteudo Projeto 3-->
-      </div>
-      <!--Projeto 3-->
-    </div>
-    <!--container-projetos-->
-  </main>
-  <!--projetos-->
+      </button>
+    </form>
 
-  <section id="contato" class="contato">
-    <div class="titulo-contato">
-      <p>Contato</p>
-      <h2>Entre em contato! 👇</h2>
+    <div class="google-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!3m1!4b1!4m6!3m5!1s0x935a3d18df9ae275:0x738470e469754a24!8m2!3d-15.7975154!4d-47.8918874!16zL20vMDFoeV8?entry=ttu.060352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1656675150678!5m2!1sen!2sng"
+        style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="map-content">
+        <p>Davi Júlio</p>
+        <span>
+          Brasília-DF
+        </span>
+        <br />
+        <span>@: davijulio550@gmail.com</span>
+      </div>
     </div>
-    <!--titulo-contato-->
-    <div class="container-contato">
-      <div class="email">
-        <img src="./Imgs_Icons/email.png" alt="" />
-        <p>Email</p>
-        <p>davijulio550@gmail.com</p>
-      </div>
-      <!--email-->
-      <div class="location">
-        <img src="./Imgs_Icons/icons8-localização-64.png" alt="" />
-        <p>Localização</p>
-        <p>Brasília-DF</p>
-      </div>
-      <!--location-->
-      <div class="whatsapp">
-        <img src="/Imgs_Icons/icons8-whatsapp-64.png" alt="" />
-        <p>Whatsapp</p>
-        <p>(61)98629-9415</p>
-      </div>
-      <!--whatsapp-->
-      <div class="linkedin">
-        <img src="./Imgs_Icons/linkedin2.png" alt="" />
-        <p>LinkedIn</p>
-        <a href="https://www.linkedin.com/in/davi-j%C3%BAlio-801801240/">Click Aqui</a>
-      </div>
-      <!--linkedin-->
-    </div>
-    <!--container-contato-->
-  </section>
-  <!--contato-->
+  </div>
 
-  <footer class="footer">
-    <p>&copy; Davi Júlio Portfólio</p>
-  </footer>
-  <!--footer-->
-
-  <script src="./Js/./Jquery/jquery-3.7.1.js"></script>
-  <script src="./Js/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="./jquery.tagcanvas.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
