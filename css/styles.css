@@ -401,49 +401,7 @@ color: #fff;
   color: #08fdd8;
 }
 /* blog section starts here */
-.section-blog {
-  width: 85%;
-  margin: 100px auto 0;
-  position: relative;
-}
-.section-blog .fake-big-2 {
-  font-size: 12rem;
-  font-weight: bolder;
-  position: absolute;
-  top: -180px;
-  left: 0;
-}
 
-.blog-articles {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-}
-.post-articles {
-  width: 100%;
-  height: 220px;
-  background-color: #1d1d1d;
-  padding: 25px;
-  color: #909096;
-  box-shadow: 0 0 5px 5px #191919;
-  margin-bottom: 30px;
-}
-.post-date {
-  font-size: 14px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-.blog-post-title h5 a {
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  margin: 15px 0;
-}
-.blog-post-title h5 a:hover {
-  color: #06b99e;
-}
 
 /* contact section starts here. The Final Part */
 .contact-heading {
