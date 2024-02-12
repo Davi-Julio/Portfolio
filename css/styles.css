@@ -402,6 +402,18 @@ color: #fff;
 }
 /* blog section starts here */
 
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.container img{
+  width: 50vw;
+  border-radius: 20px;
+}
 
 /* contact section starts here. The Final Part */
 .contact-heading {
