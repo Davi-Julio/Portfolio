@@ -1,5 +1,6 @@
 # Portfolio
-Portfólio Com Meus Principais Projetos e Infomações Pessoais.
+
+Portfólio: Meus Principais Projetos e Informações Pessoais
 
 📌 Tecnologias Usadas:
 -HTML5
