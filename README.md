@@ -1,5 +1,9 @@
 # Portfolio
-Portfólio Com Meus Principais Projetos e Infomações Pessoais.
 
-📌 Tecnologias:
-Html,Css,JavaScript & JQuery
+Portfólio: Meus Principais Projetos e Informações Pessoais
+
+📌 Tecnologias Usadas:
+HTML5 -
+CSS3 -
+JavaScript -
+jQuery -
